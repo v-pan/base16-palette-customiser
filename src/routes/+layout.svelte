@@ -10,4 +10,10 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children()}
+<header>
+	<h1 class="text-3xl">Base 16 Palette Editor</h1>
+</header>
+
+<main>
+	{@render children()}
+</main>
